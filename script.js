@@ -5,10 +5,10 @@ let str3 = prompt("Input your 3rd string",);
 alert(`You entered: ${str1} ${str2} ${str3}`);
 //task 2
 let number = prompt('Please enter 5 digit number', '');
-if (number.length !== 5) {
-    alert('Please enter 5 digit number!');
-} else {
+if (number.length === 5) {
     alert('Your number: ' + number.split('').join(' '));
+} else {
+    alert('Please enter 5 digit number!');
 }
 
 
